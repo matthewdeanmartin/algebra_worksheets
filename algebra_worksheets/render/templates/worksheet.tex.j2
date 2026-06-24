@@ -1,0 +1,36 @@
+\documentclass[11pt,\VAR{paper}]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small \VAR{worksheet.title}}
+\fancyhead[R]{\small Name: \rule{4cm}{0.4pt} \quad Date: \rule{2.5cm}{0.4pt}}
+\fancyfoot[C]{\small Page \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\begin{center}
+  {\Large \textbf{\VAR{worksheet.title}}}
+\end{center}
+
+\vspace{0.5em}
+\noindent \VAR{worksheet.instructions}
+\vspace{1em}
+
+\begin{multicols}{\VAR{columns}}
+\begin{enumerate}[itemsep=2.2em, leftmargin=*]
+%% for system in systems
+  \item $\VAR{system}$
+    \vspace{2.2em}
+%% endfor
+\end{enumerate}
+\end{multicols}
+
+\end{document}

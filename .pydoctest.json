@@ -1,0 +1,5 @@
+{
+    "include_paths": ["algebra_worksheets/**/*.py"],
+    "fail_on_missing_docstring": false,
+    "parser": "google"
+}
